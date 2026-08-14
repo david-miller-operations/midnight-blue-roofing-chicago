@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midnight Blue Roofing - Chicago Loop</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #212529;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+            border-bottom: 5px solid #4a90e2;
+        }
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        header p {
+            font-size: 1rem;
+            color: #f1f2f6;
+            font-weight: 300;
+        }
+        .container {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .emergency-banner {
+            background-color: #e1f5fe;
+            border-left: 5px solid #0288d1;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 0.95rem;
+            color: #01579b;
+        }
+        .cta-call-button {
+            display: block;
+            background-color: #29b6f6;
+            color: #ffffff;
+            text-align: center;
+            padding: 18px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(41, 182, 246, 0.4);
+            margin-bottom: 25px;
+        }
+        .card {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            font-size: 1.2rem;
+            margin-bottom: 12px;
+            color: #2c3e50;
+            border-bottom: 2px solid #f1f2f6;
+            padding-bottom: 5px;
+        }
+        .feature-list {
+            list-style: none;
+        }
+        .feature-list li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+            font-size: 0.95rem;
+        }
+        .feature-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #29b6f6;
+            font-weight: bold;
+        }
+        .quote-form input, .quote-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        .quote-form button {
+            width: 100%;
+            background-color: #1e3c72;
+            color: white;
+            border: none;
+            padding: 14px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 0.85rem;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>MIDNIGHT BLUE ROOFING</h1>
+        <p>Professional Roofing & Repair • Chicago Loop</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="emergency-banner">
+            ⛈️ Emergency Roof Leak or Storm Repair? Contact Us 24/7.
+        </div>
+
+        <a href="tel:8722754455" class="cta-call-button">
+            📞 Tap to Call: (872) 275-4455
+        </a>
+
+        <div class="card">
+            <h2>Our Roofing Services</h2>
+            <ul class="feature-list">
+                <li>Emergency Leak Patching & Storm Response</li>
+                <li>Commercial & Residential Flat Roof Specialists</li>
+                <li>Flawless 5-Star Local Rating & Free Assessments</li>
+                <li>Fully Licensed and Insured Chicago Contractors</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Request an Instant Mobile Quote</h2>
+            <form action="https://api.web3forms.com/submit" method="POST" class="quote-form">
+                <input type="hidden" name="access_key" value="c611e09f-f0e8-4466-8eac-3ed3f1da5b67">
+                <input type="hidden" name="redirect" value="https://web3forms.com">
+
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                <textarea name="message" rows="3" placeholder="Describe your roofing project or leak issues..." required></textarea>
+                
+                <button type="submit">Submit Request</button>
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Midnight Blue Operations. All rights reserved.</p>
+        <p>30 W Randolph St, Chicago, Illinois, 60601</p>
+    </footer>
+
+</body>
+</html>
